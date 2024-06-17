@@ -6,8 +6,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'background-org': "#191825",
-        'background-elm': "#3B3486"
+        'background-org': "#171717",
+        'background-elm': "#DA0037",
+        'background-elm2': "#444444",
+        'background-white': "#EDEDED"
       },
       fontFamily: {
         iranSans: ["iran-sans", "sans-serif"],
@@ -15,6 +17,11 @@ export default {
       },
       fontSize: {
         h1: "60px"
+      },
+      borderWidth: {
+        1: "1px",
+        2: "2px",
+        3: "3px"
       }
     },
   },
